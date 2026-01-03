@@ -6,7 +6,7 @@ from models import Todo
 _todos = []
 # Private module-level variable to handle sequential ID generation
 _next_id = 1
-
+ 
 def add_todo(title, description=""):
     """
     Creates a new Todo item and adds it to the in-memory store.
